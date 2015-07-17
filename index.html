@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META INFORMATION -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta content="index,follow" name="robots">
+    <meta content="Biel Mir is a Software developer and web developer. IamBielMir is a website created to show my resume." name="description">
+    <meta content="Biel,Mir,made by Biel,Front-end,Front End development,BAck-end,Back End development,HTML,HTML 5,CSS,CSS3,javascript,Object Oriented,Canvas,jQuery,Responsive Design, Development, PHP, ASP, BackBone JS,Ajax, Software Development, Analyst, SQL, Web Design, User Experience, Mobile Interface, Design, Biel Mir, Manchester, England, United Kingdom," name="keywords">
+    <meta content="Biel Mir" name="author">
+    
+    <title>Yes, I'm Biel Mir</title>
+    
+
+    <!-- CSS  -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61716298-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+
+<body class="grey-text text-darken-2">
+    <!---------- NAVIGATION  --------->
+    <div class="navbar-fixed">
+        <!-- NAVIGATION DESCKTOP BAR  -->
+        <nav class="grey darken-1" role="navigation">
+
+            <div class="nav-wrapper">
+
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect" href="#top">About</a>
+                    </li>
+                    <li><a class="waves-effect" href="#objective">Objectives</a>
+                    </li>
+                    <li><a class="waves-effect" href="#personal_statment">Personal statement</a>
+                    </li>
+                    <li><a class="waves-effect" href="#experience">Experience</a>
+                    </li>
+                    <li><a class="waves-effect" href="#skills">Skills</a>
+                    </li>
+                    <li><a class="waves-effect" href="#courses">Courses</a>
+                    </li>
+                    <li><a class="waves-effect" href="#education">Education</a>
+                    </li>
+                    <li><a class="waves-effect" href="#further_information">Further information</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- NAVIGATION MOBILE BAR  -->
+        <ul class="side-nav" id="mobile-demo">
+
+            <li class="waves-effect waves-teal"><a href="#top"><span class="text-bold">About</span></a>
+            </li>
+            <li class="waves-effect waves-teal"><a href="#objective"><span class="text-bold">Objectives</span></a>
+            </li>
+            <li class="waves-effect waves-teal"><a href="#personal_statment"><span class="text-bold">Personal statement</span></a>
+            </li>
+            <li class="waves-effect waves-teal"><a href="#experience"><span class="text-bold">Experience</span></a>
+            </li>
+            <li class="waves-effect waves-teal"><a href="#skills"><span class="text-bold">Skills</span></a>
+            </li>
+            <li class="waves-effect waves-teal"><a href="#courses"><span class="text-bold">Courses</span></a>
+            </li>
+            <li class="waves-effect waves-teal"><a href="#education"><span class="text-bold">Education</span></a>
+            </li>
+            <li class="waves-effect waves-teal"><a href="#further_information"><span class="text-bold">Further information</span></a>
+            </li>
+        </ul>
+    </div>
+    <!--------- Botton Fixed only in small and medium Screens  ---------->
+    <div style="bottom: 10px; right: 20px; " class="fixed-action-btn hide-on-large-only" id="btn-fixed">
+        <a class="btn-floating btn-large red accent-2">
+            <i class="large mdi-content-add"></i>
+        </a>
+        <ul>
+            <li><a href="files/resumepdfbielmir.pdf" class="btn-floating red accent-1" onclick="toast('Downloading', 2000)" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;" download><i class="large mdi-action-assignment-ind"></i></a>
+            </li>
+            <li><a class="btn-floating red accent-1" href="mailto:IamBielMir@Gmail.com" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="large mdi-communication-email"></i></a>
+            </li>
+            <li><a class="btn-floating red accent-1" href="tel:+4407719797369" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="large mdi-communication-phone"></i></a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- Section About -->
+    <!-- Section About -->
+    <div class="section scrollspy" id="about">
+        <div class="card-panel grey darken-3 grey-text text-lighten-3">
+            <h1 class="header center ">I'm Biel Mir</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">{Software Developer, Web Developer and Human}</h5>
+            </div>
+            <div class="row center grey-text text-lighten-1">
+                <div class="col s12 m4 ">
+                    <p><a class="grey-text text-lighten-1" href="tel:+4407719797369"> <i class="Tiny mdi-communication-phone"></i>07719 797369</a></p>
+                </div>
+                <div class="col s12 m4">
+                    <p><a class="grey-text text-lighten-1" href="mailto:IamBielMir@Gmail.com"><i class="Tiny mdi-communication-email"></i>IamBielMir@gmail.com</a></p>
+                </div>
+                <div class="col s12 m4">
+                    <p><i class="Tiny mdi-device-gps-fixed "></i>Manchester UK</p>
+                </div>
+            </div>
+            <div class="row center">
+                <a href="files/resumepdfbielmir.pdf" class="btn-large waves-effect waves-light red accent-2" id="download-button" onclick="toast('Downloading', 2000)" download>Download CV</a>
+            </div>
+        </div>
+    </div>
+    <!-- CONTAINER OF THE WEB  -->
+    <div class="container">
+
+        <!-- OBJECTIVE  -->
+        <div class="section scrollspy" id="objective">
+            <div class="card-panel">
+                <div class="row">
+                    <h2 class="header left">Objective</h2>
+                </div>
+                <p>I am fortunate enough to work in programming and new technologies as they are a major passion of mine. This industry offers me different opportunities everyday and helps to grow. I'm always motivated to work hard.</p>
+                <p>I'm very proud that my passion about this field has helped me be self-sufficient since a young age.
+                </p>
+            </div>
+        </div>
+        <!-- PERSONAL ESTATMENT  -->
+        <div class="section scrollspy" id="personal_statment">
+            <div class="card-panel">
+                <div class="row">
+                    <h2 class="header left">Personal statement</h2>
+                </div>
+                <p>Analyst and software developer. I have 7 years of industry experience, in both government-owned and private companies.</p>
+                <p>Due to my formation and versatility, my strenghts have been focused around the full-stack development of web administrative systems (CRUD, CMS, business process managers). I have had the opportunity to participate in the different steps of software creation - scoping, design, development, implementation, management and data management. Because of this experience, I have a wide set of skills across tools, frameworks, programming languages, and interpersonal skills.</p>
+            </div>
+        </div>
+        <!-- EXPERIENCE  -->
+        <div class="section scrollspy" id="experience">
+            <div class="card-panel">
+                <div class="row">
+                    <h2 class="header left">Experience</h2>
+                </div>
+                <div class="section-card-heading right-align">2007/08 - NOW( ); </div>
+                <!-- imas  -->
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+
+                        <img src="img/P-I.gif" alt="Logo imas" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">IMAS {Government-owned corporation}</span>
+                        <p class="grey-text text-light-1">
+                            <i class="mdi-action-verified-user red-text text-accent-2"></i>Lead software developer
+                            <br>
+                            <i class="mdi-maps-place red-text text-accent-2"></i>Palma de Mallorca, Spain
+
+                        </p>
+                    </li>
+                </ul>
+                <p>Thanks to my technical experience and knowledge about all different areas of the company, I was involved along many steps of the creation of new software and got to work on projects with a big impact. For instance, my knowledge in the jobs involve of social services helped to design technology improving their management and, as a result, citizen services. These kind of online social services has always been under explored, so it was very interesting and rewarding to develop these custom applications.</p>
+                <br>
+                <p><i class="mdi-file-folder-open red-text text-accent-2"></i>Corporate Web: A single point of access to details on all Balearic Island social services can be found. Our version of directgov / gov.uk</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-done-all red-text text-accent-2"></i>My Tasks: Educate and coordinate a team for correct implementation of the project specs. Lead technical owner.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-grade red-text text-accent-2"></i>Skills: Ubuntu, LAMP, Drupal, SQL, PHP, CSS, HML, SVN</p>
+                <br>
+                <p><i class="mdi-file-folder-open red-text text-accent-2"></i>Intranet service (about 1500 employees): Web application where employees can keep up to date on matters of their interest - career advancement, crm, meetings, etc.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-done-all red-text text-accent-2"></i>My Tasks: Project manage and communicate with business stakeholders. Lead technical owner.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-grade red-text text-accent-2"></i>Skills: Ubuntu, LAMP, Drupal, SQL, PHP, CSS, HML, SVN</p>
+                <br>
+                <p><i class="mdi-file-folder-open red-text text-accent-2"></i>HSI, Integrated Social History: This application serves as a file manager, CMS, CRM for all social entities in the Balearic Islands, both govermental and private. Used by around 200 professionals from different fields including administrative assistants, social workers, psychologists, educators; and servicing more than 90,000 citizens. It won the first prize by Social Services national organisation “SOCINFO” in the Balearics.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-done-all red-text text-accent-2"></i>My Tasks: I took charge of planning, scoping, developing, management, data mining, analysis of possible improvements and formation on the use of this application. Lead technical owner.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-grade red-text text-accent-2"></i>Skills: SQL, PHP, LAMP, Ubuntu, Jquery, Ajax, iReport, JasperServer, Mysql, Google Maps, SVN</p>
+                <br>
+                <p><i class="mdi-file-folder-open red-text text-accent-2"></i>GCM. Contracts manager. This application allows to control and manage the contracts with our service providers. Generate and archive all documentation needed for the correct transaction of the contract. Also it helps the coordination between different services which are involved.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-done-all red-text text-accent-2"></i>My Tasks: I took charge of planning, scoping, developing, management, data mining, analysis of possible improvements and formation on the use of this application. Lead technical owner.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-grade red-text text-accent-2"></i>Skills: SQL, PHP, LAMP, Ununtu, Jquery, Ajax, iReport, JasperServer, SVN</p>
+                <br>
+                <p><i class="mdi-file-folder-open red-text text-accent-2"></i>RMI. Insertion Minimum Rent: This application manages the economical help provided to citizens that are disadvantaged or in social risk of social exclusion. Deals with the calculation of payments for over 1500 families monthly for a value of around 7 million euros. At an internal level it also helps to improve collaboration between the financial and social teams.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-done-all red-text text-accent-2"></i>My Tasks: I took charge of planning, scoping, developing, management, data mining, analysis of possible improvements and creation of the necessary documents needed to pay by transaction. Lead technical owner.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-grade red-text text-accent-2"></i>Skills: SQL, PHP, LAMP, Ununtu, Jquery, Ajax, iReport, JasperServer,SVN</p>
+
+                <div class="section-card-heading right-align">2006/07 - 2007/08</div>
+                <!-- refineria web  -->
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+
+                        <img src="img/refineria.png" alt="Refineria Web" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Refineria Web {Web Design Company}</span>
+                        <p class="grey-text text-light-1">
+                            <i class="mdi-action-verified-user red-text text-accent-2"></i>Web Developer
+
+                            <br>
+                            <i class="mdi-maps-place red-text text-accent-2"></i>Palma de Mallorca, Spain
+                        </p>
+
+                    </li>
+                </ul>
+                 <p>Web Design and development, front end and back end, all in one. Web layout for all kinds of websites, adaptable to any kind of device and browser combination (Responsive Design, HTML5, css3, Jquery, SEO). Implementation of common APIs to improve the web sites and user interfaces (Google maps, Facebook, Twitter).</p>
+<p class="ident grey-text text-light-1"><i class="mdi-action-done-all red-text text-accent-2"></i>My Taks: Develop and coordinate with the design team.</p>
+                <p class="ident grey-text text-light-1"><i class="mdi-action-grade red-text text-accent-2"></i>Skills: HTML, CSS, Jquery, PHP, Windows</p>
+
+            </div>
+        </div>
+        <!-- SKILLS  -->
+        <div class="section scrollspy" id="skills">
+            <div class="card-panel">
+                <div class="row">
+                    <h2 class="header left">Skills</h2>
+                </div>
+                <div class="section-card-heading right-align">Software</div>
+                </br>
+                <div class="row progress_skill">
+
+                    <a class="btn disabled hide-on-med-and-down">Soft. Developer</a>
+                    <a style="width:71%" class="btn tooltipped red accent-2 hide-on-med-and-down" data-position="top" data-delay="50" data-tooltip="PHP, Ajax, JavaScript, Python..."></a>
+                    <a style="width:85%" class="btn tooltipped red accent-2 hide-on-large-only" data-position="top" data-delay="50" data-tooltip="LAMP, PHP, Ajax, JavaScript, Python...">Soft. Developer</a>
+                </div>
+
+                <div class="row progress_skill">
+                    <a class="btn disabled hide-on-med-and-down">Web Developer</a>
+                    <a style="width:60%" class="btn tooltipped red accent-2 hide-on-med-and-down" data-position="right" data-delay="50" data-tooltip="HTML,css,Responsive, mobile..."></a>
+                    <a style="width:65%" class="btn tooltipped red accent-2 hide-on-large-only" data-position="right" data-delay="50" data-tooltip="PHP, Ajax, JavaScript, Python...">Web Developer</a>
+                </div>
+                <div class="row progress_skill">
+                    <a class="btn disabled hide-on-med-and-down">Data Mining</a>
+                    <a style="width:40%" class="btn tooltipped red accent-2 hide-on-med-and-down" data-position="right" data-delay="50" data-tooltip="SQL, Mysql, MariaDb, Oracle, JasperServer..."></a>
+                    <a style="width:45%" class="btn tooltipped red accent-2 hide-on-large-only" data-position="right" data-delay="50" data-tooltip="PHP, Ajax, JavaScript, Python...">Data Mining</a>
+                </div>
+                <!-- language skills  -->
+                <div class="section-card-heading right-align">Language</div>
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+                        <img src="img/UK.png" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">English</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Intermediate
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>In constant evolution and improvement. Currently taking daily academy lessons to improve my spoken english and enlisted in three further education courses, both to improve my fluency and my technical skillset.
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="img/Spain.png" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Spanish</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Expert
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Native tongue
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="img/cat.png" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Catalan</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Expert
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Mother tongue
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- EDUCATION  -->
+        <div class="section scrollspy" id="courses">
+            <div class="card-panel ">
+                <div class="row">
+                    <h2 class="header left">Courses</h2>
+                </div>
+                <div class="section-card-heading right-align"> Currently </div>
+                <ul class="collection truncate">
+                    <li class="collection-item avatar">
+                        <img src="img/U-M.png" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">University of Michigan (coursera.org)</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Programming (Python)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Python,Regular Expressions,Files
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="img/C-M.png" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">University of Colorado (coursera.org)</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Beginning Game Programming with C#
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>C#, OOP, XNA, MonoDevel-MonoGames
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="img/U-MD.png" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">University of Maryland (coursera.org)</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Mobile App for Android Handheld Systems
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>JAVA, Android SDK, Android Studio
+                        </p>
+                    </li>
+                </ul>
+                <div class="section-card-heading right-align"> 2013/14 - 2013/14 </div>
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+                        <img src="img/M-E.jpg" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Ministerio de España</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Web Service “Sius” - (30h)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Apache Tomcat,install Oracle, scripts
+                        </p>
+                    </li>
+                </ul>
+                <div class="section-card-heading right-align">2011/12 - 2011/12</div>
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+                        <img src="img/P-I.gif" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Plan de Formación IMAS</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Information security(PHP) - (35h)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Secure web architecture, SQL injection, XSS
+                        </p>
+                    </li>
+                </ul>
+                <div class="section-card-heading right-align">2009/10 - 2009/10</div>
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+                        <img src="img/P-I.gif" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Plan de Formación IMAS</span>
+                        <p class="grey-text text-light-1 "><i class="mdi-social-school red-text text-accent-2"></i>Linux (33h)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Bash Scripting, Commands in Unix
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="img/P-I.gif" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Plan de Formación IMAS</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Java (33h)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>J2EE, JSP, OOP
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="img/P-I.gif" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Plan de Formación IMAS</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Java ||(33h)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Web services, Advanced J2EE, OOP, Data persistence
+                        </p>
+                    </li>
+                </ul>
+                <div class="section-card-heading right-align">2008/09 - 2008/09</div>
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+                        <img src="img/P-I.gif" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Plan de Formación IMAS</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Oracle
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>SQL, PL/SQL
+                        </p>
+                    </li>
+                </ul>
+               
+                
+            </div>
+        </div>
+    <!--Education-->
+            <div class="section scrollspy" id="education">
+            <div class="card-panel ">
+                <div class="row">
+                    <h2 class="header left">Education</h2>
+                </div>
+                 <div class="section-card-heading right-align">2006/07 - 2007/08</div>
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+
+                        <img src="img/C-SJ.jpg" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Sant Josep Obrer</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Software architecture - Higher Education (HNC)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Structured programming, NetWorking, Databases
+                        </p>
+                    </li>
+                </ul>
+                <div class="section-card-heading right-align">2004/05 - 2005/06</div>
+                <ul class="collection ">
+                    <li class="collection-item avatar">
+
+                        <img src="img/C-SJ.jpg" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Sant Josep Obrer</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Electronic consumer equipment - Higher Education (HNC)
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Digital Electronics, Analog electronics
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="img/M-B.jpg" alt="" class="responsive-img circle z-depth-1">
+                        <span class="title section-title">Government of Balearic Islands</span>
+                        <p class="grey-text text-light-1"><i class="mdi-social-school red-text text-accent-2"></i>Certificate in “Web Design and Multimedia”
+                            <br>
+                            <i class="mdi-action-view-headline red-text text-accent-2"></i>Photoshop, Flash, ActionScript ,Javascrip
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FUTHER INFORMATION  -->
+        <div class="section scrollspy" id="further_information">
+            <div class="card-panel z-depth-5 grey darken-1 white-text">
+                <div class="row">
+                    <h2 class="header left">Further Information</h2>
+                </div>
+                <p>One of my other passions is outdoor sports and competitions. All my life, I have been linked to clubs or teams of cycling or triathlon. In fact in I have been a triathlon semi-professional, being federated and competing in lots of national races.</p>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER  -->
+    <div class="footer valign-wrapper">
+        <p class="grey-text text-darken-3 valign center">Created By: Biel Mir</p>
+    </div>
+    <!-- js  -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script type="text/javascript">
+        var options = [
+{selector: '#objective', offset: 300, callback: '$("#btn-fixed").slideDown( "slow" );' },
+];
+scrollFire(options); 
+    </script>
+
+
+
+</body>
+
+</html>
