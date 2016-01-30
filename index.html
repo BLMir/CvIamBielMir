@@ -33,11 +33,11 @@
     <!---------- NAVIGATION  --------->
     <div class="navbar-fixed">
         <!-- NAVIGATION DESCKTOP BAR  -->
-        <nav class="grey darken-1" role="navigation">
+        <nav class="grey darken-1 z-depth-1" role="navigation">
 
             <div class="nav-wrapper">
 
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse "><i class="mdi-navigation-menu"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="waves-effect" href="#top">About</a>
                     </li>
@@ -59,7 +59,7 @@
             </div>
         </nav>
         <!-- NAVIGATION MOBILE BAR  -->
-        <ul class="side-nav" id="mobile-demo">
+        <ul class="side-nav" id="mobile-demo" >
 
             <li class="waves-effect waves-teal"><a href="#top"><span class="text-bold">About</span></a>
             </li>
@@ -93,13 +93,13 @@
             </li>
         </ul>
     </div>
+    
     <!-- Section About -->
     <div class="section scrollspy" id="about">
-        <div class="card-panel grey darken-3 grey-text text-lighten-3">
+        <div class="card-panel grey darken-3 grey-text text-lighten-3 z-depth-3">
             <h1 class="header center ">I'm Biel Mir</h1>
 
             <div class="row center">
-                <img src="img/me.jpg" alt="Biel Mir" width="80" class="responsive-img circle z-depth-1">
                 <h5 class="header col s12 light">{Software Developer, Backend Developer and Human}</h5>
             </div>
             <div class="row center grey-text text-lighten-1">
@@ -116,12 +116,19 @@
             <div class="row center">
                 <a href="files/resumepdfbielmir.pdf" class="btn-large waves-effect waves-light red accent-2" id="download-button" onclick="toast('Downloading', 2000)" download>Download CV</a>
             </div>
+             <div class="row center">
+                
+            </div>
         </div>
     </div>
     <!-- CONTAINER OF THE WEB  -->
-    <div class="container">
+    <div class="container" style="position:relative;top:-100px">
         <!-- OBJECTIVE  -->
         <div class="section scrollspy" id="objective">
+            <div class="center" >
+                <img src="img/me.jpg" alt="Biel Mir" width="100" class="responsive-img circle z-depth-3">
+            </div>
+            
             <div class="card-panel">
                 <div class="row">
                     <h2 class="header left">Objective</h2>
